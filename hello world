@@ -1,0 +1,7 @@
+! This is my first fortran porgram
+
+program Hello
+
+    print *, "Hello world, My name is Kowsher Ahmed Shuvo" !here print is used to print " " value
+
+end program !to end program
