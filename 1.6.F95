@@ -1,0 +1,11 @@
+
+PROGRAM THISD_SUPPLEMENTRY_PROGRAM
+    I=1
+    J=2
+ 71 K=2*I + 3*J
+    I=J+K
+    J=I+2*J
+    IF(K.LT.25)GO TO 71
+    PRINT*,I,J,K
+    STOP
+END PROGRAM
