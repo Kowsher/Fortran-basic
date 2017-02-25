@@ -1,0 +1,10 @@
+!This is a program to calculate sum and poroduct
+
+program sum_product
+    I=24 !Fortran take I,J,K,L,M,N as Integer by default
+    J=3
+    K=7
+    LS = I+J+K !L means integer as like above
+    LP=I*J*k !we assign sum of I,J,K in LS and product of I,J,K in LP
+    PRINT*,"THSE SUM AND PRODUCT OF",I,J,K ,"",LS,LP ! use PRINT*, to print
+end program
