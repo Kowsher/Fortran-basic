@@ -1,0 +1,10 @@
+PROGRAM AVG
+    IMPLICIT NONE
+    REAL:: SUM=0,A,AVE,I
+    DO I=1,5
+        READ*,A
+        SUM=SUM+A
+    END DO
+    AVE=SUM/5
+    PRINT*,AVE
+END PROGRAM
