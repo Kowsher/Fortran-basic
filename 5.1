@@ -1,0 +1,10 @@
+PROGRAM STUDENT_ID
+    IMPLICIT NONE
+    REAL :: ID,SUM,S1,S2,S3,AVG,I
+    DO I=1,100
+        READ*,ID,S1,S2,S3
+        SUM=S1+S2+S3
+        AVG=SUM/3
+        PRINT*,AVG
+    END DO
+END PROGRAM
