@@ -1,0 +1,17 @@
+PROGRAM INTEREST
+    implicit none
+    REAL::  IAMT,INTT,RATE;
+   READ*,IAMT
+
+    IF(IAMT<=100)THEN
+        RATE=0.7
+    ELSE
+        RATE=0.6
+    END IF
+
+
+   INTT=RATE*IAMT
+
+    PRINT*, INTT
+
+END PROGRAM
