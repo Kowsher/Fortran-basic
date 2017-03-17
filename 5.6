@@ -1,0 +1,15 @@
+PROGRAM PRIME
+    INTEGER:: I,K,KK,CK=0
+    READ*, K
+    KK=K/2
+    DO I=2,KK
+        IF(MOD(K,I)==0)THEN
+            CK=1
+        END IF
+    END DO
+     IF(CK==1)THEN
+        PRINT*,K," IS NOT A PRIME NUMBER"
+    ELSE
+        PRINT*,K," IS A PRIME MUMBER"
+    END IF
+END PROGRAM
